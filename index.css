@@ -1,6 +1,8 @@
 .cuadro {
     height: 200px;
     opacity: 0.5;
+    /* cuando se cambie tal propiedad: opacidad cuando tiempo tardo en hacer los cambios 
+    cuando se cambie la opacidad de 0.5 a 1.0 esos 0.5 va a tardad 500 MS  */
     transition: opacity 500ms;
 }
 
